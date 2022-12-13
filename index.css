@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#homePage{
+    width: 100%;
+    height: 100vh;
+    background-color: #FAECE1;
+}
+
+#homePage nav{
+    display: flex;
+    height: 15vh;
+    width: 80%;
+    margin: 0 auto 0 auto;
+    align-items: center;
+}
+
+#homePage nav h2{
+    font-size: 20px;
+    margin: 0 auto 0 0;
+    font-weight: 600;
+}
+
+#homePage nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 auto;
+}
+
+#homePage nav ul li{
+    margin-left: 30px;
+    font-size: 16px;
+}
+
+#homePage nav ul li a{
+    color: black;
+}
+
+#homePage div{
+    width: 80%;
+    height: 70vh;
+    background-image: url(./img/backgroundPipeta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 3vh auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#homePage div h3{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#homePage div h4{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 7px;
+    font-weight: 500;
+}
+
+#sobreMi{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAECE1;
+}
+
+#sobreMi h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+#sobreMi p{
+    font-size: 16px;
+    width: 55%;
+    text-align: center;
+}
+
+.portfolio1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(250, 236, 225, 0.8),rgba(250, 236, 225, 0.8)),url(./img/comunicacion\ y\ diseño.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio1 .titleText button{
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    margin: 20px 0;
+}
+
+.portfolio1 .titleText button a{
+    color: white;
+}
+
+.portfolio2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(250, 236, 225, 0.8),rgba(250, 236, 225, 0.8)),url(./img/construccion.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio2 .titleText button{
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    margin: 20px 0;
+}
+
+.portfolio2 .titleText button a{
+    color: white;
+}
+
+.portfolio2 .bigImg img{
+    width: 500px;
+    margin: 0 100px;
+}
+
+.bigImg img{
+    width: 700px;
+    margin: 0 100px;
+}
+
+.titleText{
+    margin: 0 50px 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleText h3{
+    font-weight: 500;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.titleText p{
+    font-size: 16px;
+    background-color: rgba(250, 236, 225, 0.5);
+    padding: 10px;
+}
+
+.portfolioReverse{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(250, 236, 225, 0.8),rgba(250, 236, 225, 0.8)),url(./img/shoes.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.portfolioReverse .titleText{
+    margin: 0 0 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolioReverse2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(250, 236, 225, 0.8),rgba(250, 236, 225, 0.8)),url(./img/nike.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.portfolioReverse2 .bigImg img{
+    width: 500px;
+    margin: 0 100px;
+}
+
+.portfolioReverse2 .titleText{
+    margin: 0 0 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolioReverse2 .titleText button{
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    margin: 20px 0;
+}
+
+.portfolioReverse2 .titleText button a{
+    color: white;
+}
+
+.images{
+    width: 100%;
+    height: 100vh;
+    background-color: #FAECE1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.absImg{
+    position: absolute;
+    right: 0;
+    top: 5%;
+    z-index: 15;
+}
+
+.absSolDelMal{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 300px;
+}
+
+.absSolDelMalDerecho{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 300px;
+}
+
+.absImg2{
+    position: absolute;
+    right: 0;
+    top: 55%;
+    z-index: 15;
+}
+
+.images img{
+    width: 15%;
+    z-index: 30;
+}
+
+.images .imgPye{
+    width: 40%;
+}
+
+.images .imgDibujo{
+    width: 22%;
+}
+
+.relative{
+    position: relative;
+}
+
+.masTrabajos{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #FAECE1;
+}
+
+.masTrabajos button{
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.masTrabajos button a{
+    font-size: 16px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.masTrabajos button a ion-icon{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+#family{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(250, 236, 225, 0.8),rgba(250, 236, 225, 0.8)),url(./img/vistaPalLago.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#family h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+#family p{
+    background-color: rgba(250, 236, 225, 0.5);
+    padding: 10px;
+    font-size: 16px;
+    width: 55%;
+    text-align: center;
+}
+
+#footer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAECE1;
+    text-align: center;
+}
+
+#footer h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer .bigDiv{
+    margin: 70px 0;
+    font-size: 17px;
+}
+
+#footer .bigDiv h4{
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+#footer .inputs{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#footer .inputs input{
+    font-size: 15px;
+    padding: 5px 15px;
+    border: 1px solid black;
+}
+
+#footer .inputs button{
+    font-size: 15px;
+    padding: 5px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+#footer .footerText{
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#footer .footerText div{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+#footer .footerText div ion-icon{
+    margin: 0 10px;
+    font-size: 30px;
+    cursor: pointer;
+
+}
